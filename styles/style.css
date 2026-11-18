@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/montserrat/Montserrat-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/montserrat/Montserrat-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+.table {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 0 ;
+    padding-bottom: 0;
+    padding-left: calc(50vw - 600px); 
+    padding-right: calc(50vw - 600px); 
+}
+table, th, td {
+    border: 1px solid black;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+    background-color: #b6be40;
+}
+.year {
+    font-weight: 700;
+    background-color: #a0971c;
+}
+.main{
+    background-color: #42b5e2;
+}
