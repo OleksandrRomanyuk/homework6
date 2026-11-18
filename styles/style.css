@@ -19,18 +19,15 @@ body {
     width: 90%;
     max-width: 1200px;
     margin: auto;
-    padding-top: 0 ;
-    padding-bottom: 0;
-    padding-left: calc(50vw - 600px); 
-    padding-right: calc(50vw - 600px); 
-}
+    padding: 0;
 table, th, td {
     border: 1px solid black;
     margin: auto;
     border-collapse: collapse;
     text-align: center;
     padding: 5px;
-    background-color: #b6be40;
+    background-color: #ddd66f;
+    overflow-wrap: anywhere;
 }
 .year {
     font-weight: 700;
@@ -38,4 +35,7 @@ table, th, td {
 }
 .main{
     background-color: #42b5e2;
+}
+tbody tr, th, td:nth-child(even) {
+    background-color: #db6e6e;
 }
